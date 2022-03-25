@@ -15,9 +15,6 @@ Preprocessing
 * **Adapter trimming** - Standard adapter trimming and QC using [trim_galore](https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/)
 Genome tools
 ------------
-* **Mappability** - Genome-wide mappability assessment using the [GEM-library](http://algorithms.cnag.cat/wiki/The_GEM_library)
-Mapping
--------
 * **star_align** - [VBCF](http://www.vbcf.ac.at/facilities/next-generation-sequencing/) RNA-seq alignment and QA pipeline using [STAR](https://github.com/alexdobin/STAR)
 * **ChIPSeq_align** - [VBCF](http://www.vbcf.ac.at/facilities/next-generation-sequencing/) ChIP-seq alignment and QA pipeline using [bowtie](http://bowtie-bio.sourceforge.net/index.shtml)
 
