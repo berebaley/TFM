@@ -9,7 +9,7 @@ Flujo de trabajo para el análisis (pipeline) de datos NGS basado en [Nextflow](
 
 
 
-
+-------------
 Preprocesado 
 -------------
 * **Adapter trimming** - Standard adapter trimming and QC using [trim_galore](https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/)
