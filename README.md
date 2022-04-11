@@ -8,9 +8,12 @@ Nextflow-NGS
 Flujo de trabajo para el análisis (pipeline) de datos NGS basado en Nextflow para el estudio de la neurofibromatosis tipo NF1. [Nextflow](https://www.nextflow.io/). 
 Comprende una selección de herramientas robusta y razonable para varios pasos del analisis. 
 
----------------
+Conversion de Archivos 
+-----------------------
 * **SRA conversion** - Conversion de archivos  \*.sra del repositorio [Read Sequencing Archive](https://www.ncbi.nlm.nih.gov/sra) a formato fastq utilizando fastq-dump del kit [sra-tools](https://github.com/ncbi/sra-tools).
-Preprocessing
+
+
+Preprocesado 
 -------------
 * **Adapter trimming** - Standard adapter trimming and QC using [trim_galore](https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/)
 Genome tools
@@ -18,10 +21,19 @@ Genome tools
 * **star_align** - [VBCF](http://www.vbcf.ac.at/facilities/next-generation-sequencing/) RNA-seq alignment and QA pipeline using [STAR](https://github.com/alexdobin/STAR)
 * **ChIPSeq_align** - [VBCF](http://www.vbcf.ac.at/facilities/next-generation-sequencing/) ChIP-seq alignment and QA pipeline using [bowtie](http://bowtie-bio.sourceforge.net/index.shtml)
 
-Variant calling
+
+Descubrimiento de Variantes 
 ---------------
 * **GATK RNA-Seq** - Variant calling on RNA-Seq data using Broad's Genome Analysis Toolkit following their [best practices](https://software.broadinstitute.org/gatk/documentation/article.php?id=3891).
 Peak calling
 ------------
 * **SICER** - Standard broad peak calling using [SICER](http://home.gwu.edu/~wpeng/Software.htm).
+
+Anotación de Variantes 
+---------------
+* **GATK RNA-Seq** - Variant calling on RNA-Seq data using Broad's Genome Analysis Toolkit following their [best practices](https://software.broadinstitute.org/gatk/documentation/article.php?id=3891).
+Peak calling
+------------
+* **SICER** - Standard broad peak calling using [SICER](http://home.gwu.edu/~wpeng/Software.htm).
+
 
