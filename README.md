@@ -5,8 +5,8 @@ Febrero - Junio 2022
 Nextflow-NGS
 ============
 [![nextflow](https://img.shields.io/badge/nextflow-%E2%89%A50.24.0-brightgreen.svg)](http://nextflow.io)
-Flujo de trabajo para el análisis (pipeline) de datos NGS basado en Nextflow para el estudio de la neurofibromatosis tipo NF1. [Nextflow](https://www.nextflow.io/). 
-Comprende una selección de herramientas robusta y razonable para varios pasos del analisis. 
+Flujo de trabajo para el análisis (pipeline) de datos NGS basado en [Nextflow](https://www.nextflow.io/) para el estudio de la neurofibromatosis tipo NF1.
+
 
 Conversion de Archivos 
 -----------------------
