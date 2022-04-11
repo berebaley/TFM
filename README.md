@@ -9,7 +9,7 @@ Generic pipelines for next-generation sequencing data analysis using [Nextflow](
 analysis steps.
 File conversion
 ---------------
-* **SRA conversion** - File conversion of \*.sra files from the [Read Sequencing Archive](https://www.ncbi.nlm.nih.gov/sra) to regular fastq-files using [sra-tools](https://github.com/ncbi/sra-tools).
+* **SRA conversion** - Conversion de archivos  \*.sra del repositorio [Read Sequencing Archive](https://www.ncbi.nlm.nih.gov/sra) a formato fastq utilizando fastq-dump del kit [sra-tools](https://github.com/ncbi/sra-tools).
 Preprocessing
 -------------
 * **Adapter trimming** - Standard adapter trimming and QC using [trim_galore](https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/)
