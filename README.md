@@ -8,9 +8,6 @@ Nextflow-NGS
 Flujo de trabajo para el análisis (pipeline) de datos NGS basado en [Nextflow](https://www.nextflow.io/) para el estudio de la neurofibromatosis tipo NF1.
 
 
-Conversion de Archivos 
------------------------
-* **SRA conversion** - Conversion de archivos  \*.sra del repositorio [Read Sequencing Archive](https://www.ncbi.nlm.nih.gov/sra) a formato fastq utilizando fastq-dump del kit [sra-tools](https://github.com/ncbi/sra-tools).
 
 
 Preprocesado 
@@ -31,9 +28,10 @@ Peak calling
 
 Anotación de Variantes 
 ---------------
-* **GATK RNA-Seq** - Variant calling on RNA-Seq data using Broad's Genome Analysis Toolkit following their [best practices](https://software.broadinstitute.org/gatk/documentation/article.php?id=3891).
-Peak calling
-------------
-* **SICER** - Standard broad peak calling using [SICER](http://home.gwu.edu/~wpeng/Software.htm).
 
+ADICIONALES: 
+-----------------------
+Conversion de Archivos 
+-----------------------
+* **SRA conversion** - Conversion de archivos  \*.sra del repositorio [Read Sequencing Archive](https://www.ncbi.nlm.nih.gov/sra) a formato fastq utilizando fastq-dump del kit [sra-tools](https://github.com/ncbi/sra-tools).
 
