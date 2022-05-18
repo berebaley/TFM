@@ -8,32 +8,30 @@ Nextflow-NGS
 Flujo de trabajo para el análisis (pipeline) de datos NGS basado en [Nextflow](https://www.nextflow.io/) para el estudio de la neurofibromatosis tipo NF1.
 
 
-
 -------------
 Preprocesado 
 -------------
 * **RECORTE_ADAPTADORES_QC** 
 * **INDICE_REFERENCIA** 
 * **MAPA_A_REFERENCIA**
-* **CONVERSION_ SAM_A_BAM**
-* **ORDENAMIENTO**
-* **CONTEO_DE_LECTURAS** 
+* **ORDENAMIENTO** 
 * **MARCAR_DUPLICADOS**
 * **BQSR**
-
 
 
 ----------------------------
 Descubrimiento de Variantes 
 ----------------------------
-* **DESCUBRIMIENTO_DE_VARIANTES**
-* **CATEGORIZAR_VARIANTES** 
-
+* **DESCUBRIMIENTO_DE_VARIANTES GERMINALES GATK HaplotypeCaller**
+* **DESCUBRIMIENTO_DE_VARIANTES GERMINALES VarScan**
+* **DESCUBRIMIENTO_DE_VARIANTES SOMATICAS GATK Mutect**
+* **DESCUBRIMIENTO_DE_VARIANTES SOMATICAS VarScan**
 
 -----------------------
-Anotación de Variantes 
+Anotación de Variantes  
 -----------------------
-* **FILTRADO_DURO**
+* **FUNCOTATOR**
+* **snpEff**
 
 -----------------------
 ADICIONALES: 
